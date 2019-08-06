@@ -7,27 +7,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e79ae170-3b1d-4ec7-b67f-fc54ac08e812" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/db.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Spring-Mybatis_Login/WEB-INF/classes/db.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Spring-Mybatis_Login/WEB-INF/classes/mybatis.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Spring-Mybatis_Login/WEB-INF/lib/log4j-api-2.12.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Spring-Mybatis_Login/WEB-INF/lib/log4j-core-2.12.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/db.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mybatis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/liyan/test/SingTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/liyan/test/SingleTon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/liyan/test/SingleTons.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Log4j2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/beans.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Spring-Mybatis_Login.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/Spring-Mybatis_Login.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Spring-Mybatis_Login/WEB-INF/classes/Log4j2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Spring-Mybatis_Login/WEB-INF/classes/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/Spring-Mybatis_Login/WEB-INF/classes/beans.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Spring-Mybatis_Login/WEB-INF/classes/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/Spring-Mybatis_Login/WEB-INF/classes/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Log4j2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/beans.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/log4j.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -42,21 +26,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="968">
-              <caret line="163" selection-start-line="163" selection-end-line="163" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="586">
-                <caret line="51" column="13" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
+              <first_editor relative-caret-position="385">
+                <caret line="108" column="1" selection-start-line="108" selection-start-column="1" selection-end-line="108" selection-end-column="1" />
+                <folding>
+                  <element signature="e#177#178#0" expanded="true" />
+                  <element signature="e#209#210#0" expanded="true" />
+                </folding>
               </first_editor>
               <second_editor />
             </state>
@@ -64,25 +43,32 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/db.properties">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/liyan/test/SingleTons.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+            <state relative-caret-position="34">
+              <caret line="2" selection-start-line="2" selection-end-line="10" selection-end-column="1" />
+              <folding>
+                <element signature="e#415#416#0" expanded="true" />
+                <element signature="e#447#448#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/beans.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/liyan/test/SingleTon.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="35" column="92" selection-start-line="35" selection-start-column="92" selection-end-line="35" selection-end-column="92" />
-              <folding>
-                <element signature="e#900#916#0" expanded="true" />
-                <element signature="e#954#967#0" expanded="true" />
-                <element signature="e#1010#1028#0" expanded="true" />
-                <element signature="e#1071#1089#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="352">
+              <caret line="34" column="5" lean-forward="true" selection-end-line="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/liyan/test/SingTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="9" lean-forward="true" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -124,6 +110,9 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/beans.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liyan/test/SingleTon.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liyan/test/SingTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liyan/test/SingleTons.java" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -154,8 +143,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -203,12 +190,24 @@
               <item name="SpringMybatis_Login" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="liyan" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringMybatis_Login" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringMybatis_Login" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -244,7 +243,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.login">
+  <component name="RunManager" selected="JUnit.SingTest.na">
+    <configuration name="SingTest.na" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SpringMybatis_Login" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.liyan.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.liyan.test" />
+      <option name="MAIN_CLASS_NAME" value="com.liyan.test.SingTest" />
+      <option name="METHOD_NAME" value="na" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UsersTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SpringMybatis_Login" />
       <extension name="coverage">
@@ -353,9 +368,11 @@
       <item itemvalue="JUnit.UsersTest" />
       <item itemvalue="JUnit.UsersTest.Login" />
       <item itemvalue="Tomcat Server.login" />
+      <item itemvalue="JUnit.SingTest.na" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SingTest.na" />
         <item itemvalue="JUnit.UsersTest" />
         <item itemvalue="JUnit.UsersTest.Login" />
       </list>
@@ -374,7 +391,9 @@
       <workItem from="1564710481926" duration="4706000" />
       <workItem from="1564725319095" duration="9233000" />
       <workItem from="1564966024109" duration="3253000" />
-      <workItem from="1564985988954" duration="8343000" />
+      <workItem from="1564985988954" duration="8436000" />
+      <workItem from="1565052109815" duration="598000" />
+      <workItem from="1565080556478" duration="2802000" />
     </task>
     <task id="LOCAL-00001" summary="1.0">
       <created>1564732364769</created>
@@ -390,7 +409,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564738783526</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="1.2">
+      <created>1564998328976</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1564998328976</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -421,14 +447,18 @@
     <history-entry file="UsersTest - 2019.08.02 at 14h 00m 28s.xml">
       <configuration name="UsersTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="SingTest_na - 2019.08.06 at 17h 07m 25s.xml">
+      <configuration name="SingTest.na" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25535000" />
+    <option name="totallyTimeSpent" value="29028000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.281491" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16580977" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -438,8 +468,8 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.16981132" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.091644205" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3625337" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.091644205" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -469,7 +499,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1.0" />
     <MESSAGE value="1.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.1" />
+    <MESSAGE value="1.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.2" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/liyan/service/UsersService.java">
@@ -548,13 +579,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Log4j2.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="56" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Log4j2.xml" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/liyan/advice/MyBefore.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="172">
@@ -598,13 +623,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="968">
-          <caret line="163" selection-start-line="163" selection-end-line="163" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -621,13 +639,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/beans.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
+        <state relative-caret-position="493">
           <caret line="35" column="92" selection-start-line="35" selection-start-column="92" selection-end-line="35" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="655">
+          <caret line="163" selection-start-line="163" selection-end-line="163" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liyan/test/SingleTon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="34" column="5" lean-forward="true" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liyan/test/SingTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="9" lean-forward="true" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liyan/test/SingleTons.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="10" selection-end-column="1" />
           <folding>
-            <element signature="e#900#916#0" expanded="true" />
-            <element signature="e#954#967#0" expanded="true" />
-            <element signature="e#1010#1028#0" expanded="true" />
-            <element signature="e#1071#1089#0" expanded="true" />
+            <element signature="e#415#416#0" expanded="true" />
+            <element signature="e#447#448#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -635,8 +679,12 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="586">
-            <caret line="51" column="13" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
+          <first_editor relative-caret-position="385">
+            <caret line="108" column="1" selection-start-line="108" selection-start-column="1" selection-end-line="108" selection-end-column="1" />
+            <folding>
+              <element signature="e#177#178#0" expanded="true" />
+              <element signature="e#209#210#0" expanded="true" />
+            </folding>
           </first_editor>
           <second_editor />
         </state>

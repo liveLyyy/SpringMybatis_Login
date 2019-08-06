@@ -49,4 +49,62 @@
 4、Scope取值对象<br>
 >4.1、singleton：默认值，单例<br>
 >4.2、prototype：多例，每次获取重新实例化<br>
->4.3、resquest
+>4.3、resquest ：每次请求重新实例化<br>
+>4.4、session：：每个会话对象内，对象都是单例的<br>
+>4.5、application：在application对象内是单例<br>
+>4.6、global session：spring推出的一个对象，依赖于spring-webmvc-portlet，类似于session<br>
+
+单例设计模式
+===========
+1、作用：在应用程序有保证最多只能有一个实例<br>
+2、优点:提升运行效率；可以实现数据共享，application对象<br>
+3、[懒汉式](https://www.cnblogs.com/crazy-wang-android/p/9054771.html)：
+>3.1、对象只有被调用时才去创建<br>
+>3.2、由于添加了锁所以效率很低<br>
+```java
+package com.liyan.test;
+
+public class SingleTon {
+    //由于对象需要被静态方法调用，把方法设置为static
+    //由于对象时static，必须要设置访问权限修饰符为private，如果是public可以直接调用对象，不执行访问入口
+    private static SingleTon singleTon;
+    /**
+     * 方法名和类名相同，无返回值
+     * 其他类不能实例化对象
+     * 对外提供访问入口
+     */
+    private SingleTon() {
+    }
+    /**
+     * 实例方法，实例方法必须通过对象调用
+     * 设置方法为静态方法
+     */
+    public static SingleTon getInstance() {
+        //添加逻辑如果实例化过，直接返回
+        if (singleTon == null) {
+            /**
+             * 多线程访问下，可能出现if同时成立的情况添加锁*/
+            synchronized (SingleTon.class) {
+                //双重验证
+                if (singleTon == null) {
+                    singleTon=new SingleTon();
+                }
+            }
+        }
+        return singleTon;
+    }
+}
+```      
+4.饿汉式<br>
+>4.1、解决类懒汉式中多线程访问可能出现同一个对象和效率低的问题<br>
+```java
+public class SingleTons {
+    //在类加载时进行实例化
+    private static SingleTons singleTon=new SingleTons();
+    private SingleTons() {
+    }
+    public static SingleTons getInstance() {
+        return singleTon;
+    }
+}
+```                                                                                                                                                                                                                                                                                                                                                    
